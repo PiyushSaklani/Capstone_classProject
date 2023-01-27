@@ -9,3 +9,7 @@ git remote add origin https://github.com/{UserName}/{RepositoryName}.git
 git branch -M main
 git commit -m "{Any Msg}"
 git push -u origin main
+
+
+git clone https://github.com/PiyushSaklani/Capstone_classProject.git
+git pull
