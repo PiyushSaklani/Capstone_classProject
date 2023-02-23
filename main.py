@@ -1,15 +1,17 @@
 from Subtract import sub
 from Add import add
+from Division import div
+from Multiplication import mul
 
-ch = int(input("What you want to do:\n1. Subtract\n2. Add\n3. Multiplication\n4. Division"))
-x,y = map(int,input().split())
+ch = int(input("What you want to do:\n1. Subtract\n2. Add\n3. Multiplication\n4. Division\n"))
+x,y = map(int,input("Enter number like(1 2): ").split())
 if ch == 1:
     print(sub(x,y))
 elif ch == 2:
-    print("ADD")
+    print(add(x,y))
 elif ch == 3:
-    print("MULT")
+    print(mul(x,y))
 elif ch == 4:
-    print("DIV")
+    print(div(x,y))
 else:
     print(":O Wrong INPUT...\nInput Again.")
